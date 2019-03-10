@@ -102,3 +102,7 @@ venv.bak/
 
 # mypy
 .mypy_cache/
+
+#API key files
+myHomeSearch/config.py
+myHomeSearch/static/js/config.js
