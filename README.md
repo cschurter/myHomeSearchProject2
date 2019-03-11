@@ -1,4 +1,5 @@
 # myHomeSearchProject2
+![Webpage Image](/myHomeSearch/images/homepage.png)
 ### A home search app deployed in Heroku for Project 2
 Find the right home for your family’s needs. Is your first question in finding a home is which school will my children attend?  Then myHomeSearch app is the right home search for you. If you know which school you would like for your kids to go, just choose school name in the drop-down menu and fill in the specifications you want for your house and click search. This will return a list of homes available within the boundary of that school. If you don’t know the schools in the area, just use our list of top-ranking schools with the corresponding median home prices in the area. This app will take the home buying experience to a new level and will eliminate frustration and save you time.  
 ## Do some web scraping
@@ -17,7 +18,9 @@ This file was used instead to get 20 home data per zip code using these steps:
 To get the median home prices per zip code, the Zillow getRegionChildren API was used. Returned data was stored in median_price_SDcounty.csv.
 ### schoolRanking_medianPrice.ipynb
 The files school_ranking.csv and median_price_SDcounty.csv are joined to combine the data. This file has the school ranking information and the median home prices per school zip code. It also has the longitude and latitude information per school for geo-mapping used in logic.js.
+![Map Image](/myHomeSearch/images/map.png)
 ### Database
 Sqlite was used as a database for the data storage. DBeaver was used as the editor of choice for this database.
 ### Appchart.js 
 Create a scatter plot using d3/js. Plot the school ranking and home median prices per school zip code and use the affordability ratio as size of the circles.
+![Plot Image](/myHomeSearch/images/plot.png)
