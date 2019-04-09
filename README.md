@@ -1,7 +1,7 @@
 # myHomeSearchProject2
 ![Webpage Image](/myHomeSearch/images/homepage.png)
 ### A home search app deployed in Heroku for Project 2
-Find the right home for your family’s needs. Is your first question in finding a home is which school will my children attend?  Then myHomeSearch app is the right home search for you. If you know which school you would like for your kids to go, just choose school name in the drop-down menu and fill in the specifications you want for your house and click search. This will return a list of homes available within the boundary of that school. If you don’t know the schools in the area, just use our list of top-ranking schools with the corresponding median home prices in the area. This app will take the home buying experience to a new level and will eliminate frustration and save you time.  
+Find the right home for your family’s needs. Is your first question in finding a home, which school will my children attend?  Then myHomeSearch app is the right home search for you. If you know which school you would like for your kids to go, just choose school name in the drop-down menu and fill in your preferences for your new home and click search. This will return a list of homes available within the boundary of that school. If you don’t know the schools in the area, just use our list of top-ranking schools with the corresponding median home prices in the area. This app will take the home buying experience to a new level and will eliminate frustration and save you time.  
 ## Do some web scraping
 ### scrapeSchoolRanking.ipynb/school_ranking.csv
 This file was used to scrape www.niche.com, a school ranking website, to get the top 25 public high schools in San Diego County. Returned data was stored in school_ranking.csv.
